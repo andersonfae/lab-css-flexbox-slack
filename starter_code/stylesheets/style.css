@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 2rem;
+  margin-bottom: 0;
 }
 
 ul {
@@ -124,7 +125,7 @@ img {
   font-size: 1.1rem;
   padding: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .sponsor {
@@ -205,6 +206,49 @@ img {
   gap: 5%;
 }
 
+@media screen and (min-width:767px) and (max-width:961px) {
+  .signin {
+    flex-direction: unset;
+    width: 39rem;
+  }
+
+  .buttonOne {
+    margin-top: 0;
+    margin-left: 1rem;
+    width: 50%;
+  }
+
+  .callTitle {
+    font-size: 4rem;
+  }
+
+  .aside {
+    text-align: center;
+  }
+
+  .aside img {
+    width: 60%;
+  }
+
+  .buttonTwo {
+    width: auto;
+    padding: 1rem 2rem;
+  }
+
+  .sponsor {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: auto;
+  }
+
+  .sponsor img {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
 /* .navbar li {
   float: left;
   display: block;
@@ -253,11 +297,11 @@ img {
   }
 } */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .cabecalho {
       flex-direction: row;
       justify-content: space-between;
 
       border: none;
   }
-}
+} */
