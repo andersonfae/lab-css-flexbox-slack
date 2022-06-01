@@ -141,9 +141,10 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
 }
 
-.freeTry > p:first-child {
+.freeTry p:first-child {
   font-weight: bold;
 }
 
@@ -216,6 +217,7 @@ img {
     margin-top: 0;
     margin-left: 1rem;
     width: 50%;
+
   }
 
   .callTitle {
@@ -246,6 +248,24 @@ img {
     align-items: center;
     justify-content: center;
     margin: auto;
+  }
+
+  .freeTry {
+    flex-direction: unset;
+    margin-top: 4rem;
+    text-align: left;
+  }
+
+  .formStart {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: left;
+  gap: 2%;
+  }
+
+  .formStart .buttonOne {
+    width: auto;
+    margin-left: 0;
   }
 }
 
