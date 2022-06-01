@@ -5,3 +5,259 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+body {
+font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif;
+padding-top: 4.375rem;
+margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif', serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.featured {
+  background-color: #F4F3F4;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar {
+  padding: 0.5rem 1.5rem;
+  top: 0;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo {
+  max-width: 12.5rem;
+  width: 6.25rem;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navList {
+  display: none;
+}
+
+.navlink  {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-right: .7rem;
+  margin-bottom: 1.25rem;
+  margin-left: .7rem;
+}
+
+#hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.buttonOne {
+  width: 100%;
+  background-color: #192592;
+  color: #fff;
+  padding: 1.2rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  border: 0;
+  margin-top: 1rem;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.emailButton {
+  width: 100%;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonTwo {
+  background-color: #fff;
+  width: 23rem;
+  border-radius: 4px;
+  border: 1px solid #192592;
+  color: #192592;
+  font-size: 1.1rem;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sponsor {
+  display: flex;
+    width: 12rem;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.freeTry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.freeTry > p:first-child {
+  font-weight: bold;
+}
+
+.slackFooter {
+  height: 100%;
+  width: 100%;
+  max-width: 7rem;
+}
+
+.namesHigh > li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.namesHigh > li:first-child {
+  color: #2C303F;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.namesBottom {
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+  gap: 1rem;
+}
+
+.footerLow  {
+  background-color: #F4F3F4;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.flag {
+  height: 100%;
+  width: 100%;
+  max-width: 1.5rem;
+}
+
+.socialMedia {
+  color: #5b5e6d;
+}
+
+#footer {
+  border-top: 1px solid #ccc;
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+.navFooter {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: left;
+  gap: 5%;
+}
+
+/* .navbar li {
+  float: left;
+  display: block;
+  color: #5b5e6d;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+  font-size: 1.063rem;
+}
+
+.navbar li:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: calc((100% - 940px)/2);
+    padding-right: calc((100% - 940px)/2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar li.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} */
+
+@media screen and (min-width: 1024px) {
+  .cabecalho {
+      flex-direction: row;
+      justify-content: space-between;
+
+      border: none;
+  }
+}
